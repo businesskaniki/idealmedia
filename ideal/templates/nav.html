@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="{% static 'index.css' %}" />
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="menu" tabindex="0">
+        <div class="smartphone-menu-trigger"></div>
+      <header class="avatar">
+            <img src="" />
+        <h2>ideal media.</h2>
+      </header>
+        <ul>
+        <li tabindex="0" class="icon-dashboard"><span>home</span></li>
+        <li tabindex="0" class="icon-customers"><span>about</span></li>
+        <li tabindex="0" class="icon-users"><span>gallery</span></li>
+        <li tabindex="0" class="icon-settings"><span>whatsapp</span></li>
+      </ul>
+    </nav>
+{% block content  %}
+{% endblock %}
+</body>
+</html>
